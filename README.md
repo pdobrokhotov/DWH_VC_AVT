@@ -17,7 +17,10 @@ git remote add avt https://github.com/pdobrokhotov/DWH_VC_AVT (добавлен�
             git clone https://github.com/schacon/ticgit
 git branch -r (see remote branches = avt/master)
 git fetch avt (refresh remote (upsteram) branch
-git checkout avt/master          
+git checkout avt/master 
+-------------------------- связывание удаленных и локальных веток-----------------
+git push --set-upstream avt master
+         
 --------------------- NOTE: REDOING THE COMMIT IF FORGOT SMTH ----------------------------
 As an example, if you commit and then realize you forgot to stage the changes in a file you wanted
 to add to this commit, you can do something like this:
