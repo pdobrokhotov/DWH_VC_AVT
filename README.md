@@ -826,4 +826,7 @@ You can also use git apply to see if a patch applies cleanly before you try actu
 can run git apply --check with the patch
 git apply --check 0001-see-if-this-helps-the-gem.patch
 If there is no output, then the patch should apply cleanly.
-===================================================================================================
+============================= FIND DIFF IN COMMITS =================================================
+The command below shows you only the work your current topic branch = contrib has introduced since its
+common ancestor with master. That is a very useful syntax to remember.
+git diff master...contrib

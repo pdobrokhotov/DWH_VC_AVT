@@ -3,8 +3,8 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
-        <TargetDatabase>DWH_VC_AVT_MASTER</TargetDatabase>
+        <TargetServer>.</TargetServer>
+        <TargetDatabase>DWH_VC_AVT_MASTER_TEST</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
